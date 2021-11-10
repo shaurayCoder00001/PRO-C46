@@ -19,10 +19,10 @@ function setup() {
   world = engine.world;
   Engine.run(engine);
  
-  stand1 = new Stand(390,300,250,10);
+  stand1 = new Stand(430,300,250,10);
  
   
-  plasticbootle1 = new Block(300,275,30,40);
+  plasticbootle1 = new Block(30,275,30,40);
   plasticbootle2 = new Block(330,275,30,40);
   plasticbootle3 = new Block(360,275,30,40);
   plasticbootle4 = new Block(390,275,30,40);
@@ -86,7 +86,7 @@ slingShot.display()
 /
   
 imageMode (CENTER)
-image(polygon_img,polygon.position.x,polygon.position.y,100,170)
+image(polygon_img,polygon.position.x,polygon.position.y,100,100)
 //ellipse(0,0,this.r, this.r);
 //ellipseMode(CENTER)
 text("press the space button to get another change",40,40)
